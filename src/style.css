@@ -1,0 +1,219 @@
+/* Modern Pharmacy Management System CSS */
+
+.root {
+    -fx-background-color: #f0f4f8;
+    -fx-font-family: 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.header {
+    -fx-background-color: #2c3e50;
+    -fx-padding: 20px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 5);
+}
+
+.header-title {
+    -fx-font-size: 28px;
+    -fx-text-fill: #ecf0f1;
+    -fx-font-weight: bold;
+}
+
+.styled-text-field {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #bdc3c7;
+    -fx-border-radius: 5px;
+    -fx-padding: 8px;
+    -fx-font-size: 14px;
+}
+
+.styled-text-field:focused {
+    -fx-border-color: #3498db;
+    -fx-effect: dropshadow(three-pass-box, rgba(52,152,219,0.25), 10, 0, 0, 0);
+}
+
+.styled-button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0, 0, 2);
+}
+
+.styled-button:hover {
+    -fx-background-color: #2980b9;
+}
+
+.styled-button:pressed {
+    -fx-background-color: #2573a7;
+}
+
+.table-view {
+    -fx-background-color: white;
+    -fx-table-cell-border-color: transparent;
+    -fx-border-color: #bdc3c7;
+    -fx-border-radius: 5px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.05), 5, 0, 0, 2);
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #34495e;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: transparent;
+    -fx-size: 45px;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #2c3e50;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell {
+    -fx-background-color: white;
+    -fx-border-color: transparent;
+    -fx-table-cell-border-color: transparent;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #ecf0f1;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: #2c3e50;
+}
+
+.tab-pane .tab {
+    -fx-background-color: #34495e;
+    -fx-padding: 10px 15px;
+}
+
+.tab-pane .tab:selected {
+    -fx-background-color: #f0f4f8;
+}
+
+.tab-pane .tab .tab-label {
+    -fx-text-fill: #ecf0f1;
+    -fx-font-weight: bold;
+}
+
+.tab-pane .tab:selected .tab-label {
+    -fx-text-fill: #2c3e50;
+}
+
+.date-picker {
+    -fx-background-color: white;
+    -fx-border-color: #bdc3c7;
+    -fx-border-radius: 5px;
+}
+
+.date-picker .arrow-button {
+    -fx-background-color: #3498db;
+    -fx-background-radius: 0 5 5 0;
+}
+
+.date-picker .arrow-button:hover {
+    -fx-background-color: #2980b9;
+}
+
+.date-picker .arrow-button .arrow {
+    -fx-background-color: white;
+}
+
+.menu-bar {
+    -fx-background-color: #2c3e50;
+}
+
+.menu-bar .label {
+    -fx-text-fill: #ecf0f1;
+}
+
+.menu-item {
+    -fx-background-color: white;
+}
+
+.menu-item .label {
+    -fx-text-fill: #2c3e50;
+}
+
+.menu-item:focused {
+    -fx-background-color: #3498db;
+}
+
+.menu-item:focused .label {
+    -fx-text-fill: white;
+}
+
+.scroll-bar:vertical,
+.scroll-bar:horizontal {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical .thumb,
+.scroll-bar:horizontal .thumb {
+    -fx-background-color: #bdc3c7;
+    -fx-background-radius: 5em;
+}
+
+.scroll-bar:vertical .thumb:hover,
+.scroll-bar:horizontal .thumb:hover {
+    -fx-background-color: #95a5a6;
+}
+
+/* Additional modern styling */
+
+.card {
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 5);
+    -fx-padding: 20px;
+}
+
+.title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+}
+
+.subtitle {
+    -fx-font-size: 18px;
+    -fx-font-weight: normal;
+    -fx-text-fill: #34495e;
+}
+
+.info-label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #7f8c8d;
+}
+
+.success-button {
+    -fx-background-color: #2ecc71;
+}
+
+.success-button:hover {
+    -fx-background-color: #27ae60;
+}
+
+.warning-button {
+    -fx-background-color: #f1c40f;
+}
+
+.warning-button:hover {
+    -fx-background-color: #f39c12;
+}
+
+.danger-button {
+    -fx-background-color: #e74c3c;
+}
+
+.danger-button:hover {
+    -fx-background-color: #c0392b;
+}
