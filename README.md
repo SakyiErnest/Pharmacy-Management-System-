@@ -57,4 +57,4 @@ Contributions are welcome! Please fork this repository and submit pull requests 
 
 ## Contact
 
-For any inquiries or support, please contact [yourname@example.com](mailto:sakyie546@gmail.com).
+For any inquiries or support, please contact [sakyie546@gmail.com](mailto:sakyie546@gmail.com).
