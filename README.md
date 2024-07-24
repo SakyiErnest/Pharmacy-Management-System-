@@ -20,7 +20,7 @@ This Pharmacy Management System is a Java-based application designed to streamli
 
 ### Prerequisites
 
-- [Java JDK](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) (version 11 or higher)
+- [Java JDK](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) (version 20 or higher)
 - [IntelliJ IDEA](https://www.jetbrains.com/idea/download/)
 - [MySQL](https://dev.mysql.com/downloads/installer/)
 - [MySQL Java Connector]
